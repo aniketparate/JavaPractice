@@ -18,6 +18,7 @@ public class problem1 {
         System.out.print(" B : ");
         int B = sc.nextInt();
 
+        //day = (h - b - 1) / (a - b) + 1; direct formula to calculate days
         while (b < H) {
             count = count + 1;
             b = b + A;
