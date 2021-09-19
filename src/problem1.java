@@ -18,7 +18,7 @@ public class problem1 {
         System.out.print(" B : ");
         int B = sc.nextInt();
 
-        for (int a = 0; b < H;) {
+        while (b < H) {
             count = count + 1;
             b = b + A;
             if (b == H) {
