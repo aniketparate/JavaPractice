@@ -5,14 +5,13 @@ public class Main {
         // var DataType can be used for any type of data
         Scanner sc = new Scanner(System.in);
 
-        int a = sc.nextInt();
-        int b = sc.nextInt();
-        int c = sc.nextInt();
-        int d = 3_431_231;
+        int h1 = sc.nextInt();
+        int h2 = sc.nextInt();
+        int h3 = sc.nextInt();
 
-        boolean value = ((a < b || a > c) && (a < c || a > b)) || (a == b);
-        System.out.println(value);
-        System.out.println(c);
-        System.out.println(d);
+
+        boolean day = (h1 <= h2 && h1 <= h3 && h2 <= h3) || (h1 >= h2 && h1 >= h3 && h2 >= h3);
+
+        System.out.println(day);
     }
 }
