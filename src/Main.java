@@ -1,17 +1,18 @@
-import java.util.Scanner;
-
 public class Main {
     public static void main(String[] args) {
-        // var DataType can be used for any type of data
-        Scanner sc = new Scanner(System.in);
 
-        int h1 = sc.nextInt();
-        int h2 = sc.nextInt();
-        int h3 = sc.nextInt();
+        int a = 1;
 
-
-        boolean day = (h1 <= h2 && h1 <= h3 && h2 <= h3) || (h1 >= h2 && h1 >= h3 && h2 >= h3);
-
-        System.out.println(day);
+        for(;a <= 100;a++){
+            if(a % 3 == 0 && a % 5 == 0){
+                System.out.println("HELLO WORLD");
+            } else if (a % 5 == 0){
+                System.out.println("WORLD");
+            } else if (a % 3 == 0){
+                System.out.println("HELLO");
+            } else {
+                System.out.println(+a);
+            }
+        }
     }
 }
