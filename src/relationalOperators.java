@@ -20,14 +20,14 @@ public class relationalOperators {
 Write a program that reads three integer numbers and prints true if the first number
 is between the second and the third one (inclusive). Otherwise, it must print false.
 The last two arguments may not be sorted.
-
+*/
         int a = sc.nextInt();
         int b = sc.nextInt();
         int c = sc.nextInt();
 
         boolean value = a < b && a > c || a < c && a > b || a == b;
         System.out.println(value);
- */
+
 
 /*
 Groundhogs like to throw fun parties, and at their parties, they like to eat Reese's peanut butter cups.
@@ -39,7 +39,7 @@ Write a Java program that reads two values:
     the first is the number of Reese's peanut butter cups;
     the second is a boolean representing whether it is the weekend.
 The program must print a boolean value that indicates whether the party was successful.
-
+*/
         int cups = sc.nextInt();
         boolean weekend = sc.nextBoolean();
 
@@ -54,12 +54,12 @@ The program must print a boolean value that indicates whether the party was succ
         boolean day =  (num >= 15 && num <=25 && a) || (num >10 && num <20);
 
         System.out.println(day);
- */
+
 
 /*
 Write a program that reads three integer numbers and prints true if exactly ONE number is positive (i.e. > 0).
 Otherwise, it should print false.
-
+*/
         int a = sc.nextInt();
         int b = sc.nextInt();
         int c = sc.nextInt();
@@ -73,4 +73,3 @@ Otherwise, it should print false.
         boolean value3 = a <= 0 && b <= 0 && c > 0;
 
         System.out.println(value1 || value2 || value3);
- */
