@@ -1,4 +1,4 @@
-# Types and variables 
+# span style="text-decoration: underline">Types and variables</style>
 ## Numbers
 Java provides several types for **integers** and **fractional** numbers. 
 These types are often used in arithmetic expressions.
